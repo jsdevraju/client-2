@@ -63,7 +63,7 @@
       </div>
       <!-- Copy Right text -->
       <div class="copyright">
-        <p>Copyright 2021 2022 Colsy All nghts resarvwd.</p>
+        <p>CopyrightⒸ 2021-2022 Coinfy. All rights reserved.</p>
       </div>
     </div>
   </footer>
