@@ -43,7 +43,7 @@
                   <div class="play_store">
                     <h5>Ziskat DXtrade Mobile</h5>
                     <div class="store_img d-flex">
-                      <img src="../../assets/app.png" alt="Client" />
+                      <img src="../../assets/app.png"   alt="Client" />
                       <img src="../../assets/play.png" alt="Client" />
                     </div>
                   </div>
@@ -89,11 +89,11 @@ export default {};
 .row h3 {
   font-size: 1.2em;
 }
-/* .footer__content__social {
+.footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
   margin-top: -45px;
-} */
+}
 .footer__content__social a {
   text-decoration: underline !important;
   cursor: pointer;
@@ -118,7 +118,7 @@ export default {};
 }
 
 .store_img img {
-  width: 70px !important;
+  width: 100px !important;
 }
 .footer__social img {
   width: 20px;
@@ -143,7 +143,8 @@ export default {};
 }
 
 .footer_text {
-  margin-left: 4em;
+  transform : translateY(-40px) !important;
+  margin-left: 10em;
   
 }
 
@@ -164,12 +165,20 @@ export default {};
 } */
 
 @media (max-width:990px){
+  .footer_text {
+      transform: translateY(0px) !important;
+      margin-left: 4em;
+  
+    }
   .textinfo{
         width: 100%;
   }
 }
 
 @media (max-width: 768px) {
+  .store_img img {
+      width: 130px !important;
+    }
   .row {
     display: flex;
     flex-wrap: wrap;
