@@ -9,7 +9,7 @@
             </div>
             <div class="footer__content__text">
               <div class="info d-flex">
-                <div class="d-flex textinfo align-items-center">
+                <div class="d-flex textinfo">
                   <p>
                     Cointy je rogetorana anata spaleenot Trinity Capital LC Tato
                     spole@os oencoaná orgánem Financial Servioes Audhorty of s
@@ -89,11 +89,11 @@ export default {};
 .row h3 {
   font-size: 1.2em;
 }
-.footer__content__social {
+/* .footer__content__social {
   gap: 10px;
   flex-wrap: wrap;
   margin-top: -45px;
-}
+} */
 .footer__content__social a {
   text-decoration: underline !important;
   cursor: pointer;
@@ -125,8 +125,14 @@ export default {};
   margin-right: 0.7em;
 }
 
+.info {
+  display: flex;
+
+  }
+
 .textinfo {
-  width: 1010px;
+  /* width: 1010px; */
+  flex : 1;
 }
 
 .play_store {
@@ -134,6 +140,11 @@ export default {};
 }
 .play_store h5 {
   font-size: 0.9em;
+}
+
+.footer_text {
+  margin-left: 4em;
+  
 }
 
 .copyright {
@@ -148,9 +159,9 @@ export default {};
   margin-bottom: 0px !important;
 }
 
-.margin{
+/* .margin{
   margin-left: 1.1em;
-}
+} */
 
 @media (max-width:990px){
   .textinfo{
@@ -172,6 +183,7 @@ export default {};
 
   .info {
     flex-direction: column-reverse;
+
   }
 
   .info p {
@@ -198,10 +210,10 @@ export default {};
   .textinfo {
     margin-top: 3em;
   }
-  .footer__content__social {
+  /* .footer__content__social {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+  } */
 }
 </style>
